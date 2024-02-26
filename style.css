@@ -1,0 +1,73 @@
+.header{
+    padding: 0.5em;
+}
+.navbar{
+    font-size: 0.8em;
+}
+#red a{
+    color: red;
+}
+#blue a{
+    text-decoration: none;
+    color: black;
+}
+#blue a:hover{
+    color: blue;
+}
+.green{
+    background-color: green;
+    padding: 0.5em 1em;
+}
+.green a{
+    color: white;
+    text-decoration: none;
+}
+.darkblue{
+    background-color: blue;
+    padding: 0.5em 1em;
+}
+.darkblue a{
+    color: white;
+    text-decoration: none;
+}
+.skyblue{
+    background-color: rgb(0, 162, 255);
+    padding: 0.5em 1em;
+}
+.skyblue a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-image: url("./assets/10031.png");
+    height: 80vh;
+    background-size: cover;
+}
+.job{
+    color: white;
+}
+.job span{
+    color: red;
+}
+.inp input{
+    width: 35em;
+    height: 2.5em;
+    background-color: white;
+    border: none;
+}
+::placeholder{
+    padding-left: 1em;
+}
+.inp a{
+    padding: 0em 3em;
+    background-color: rgb(0, 89, 255);
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+@media screen and(max-width:576px){
+    span p{
+        display: none;
+    }
+    
+}
